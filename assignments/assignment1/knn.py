@@ -129,7 +129,6 @@ class KNN:
            for every test sample
         '''
         num_test = dists.shape[0]
-        num_test = dists.shape[0]
         pred = np.zeros(num_test, np.int)
         for i in range(num_test):
             # TODO: Implement choosing best class based on k
